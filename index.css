@@ -1,0 +1,49 @@
+body {
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+h2 {
+    font-weight: normal;
+    font-style: italic;
+}
+a:hover > #github-icon {
+    fill: #4078C0;
+}
+a:hover > #linkedin-icon {
+    fill: #0077B5;
+}
+a:hover > #envelope-icon {
+    fill: #B1810B;
+}
+
+a:hover > #wakatime-icon {
+    fill: #337AB7;
+}
+a> svg {
+    color: black;
+    fill: black;
+    font-style: inherit;
+    text-decoration: inherit;
+    transition: color 0.25s ease, fill 0.25s ease;
+}
+svg {
+    width: 1em;
+    height: 1em;
+    line-height: 10vh;
+    vertical-align: middle;
+    fill: inherit;
+}
+svg > path {
+    fill: inherit;
+}
+#resume:hover {
+    color: #B1810B;
+}
+body > footer > a {
+    color: black;
+    font-style: inherit;
+    text-decoration: inherit;
+}

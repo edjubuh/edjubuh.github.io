@@ -1,0 +1,58 @@
+body {
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    margin-top: 11vh;
+}
+nav {
+    background-color: #B1810B;
+    color: white;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    vertical-align: middle;
+    height: 10vh;
+    margin-left: 15%;
+    line-height: 10vh;
+    margin-top: 0;
+    transition: width 0.5s ease;
+}
+h1:hover::before {
+    content: '\2039\2009';
+}
+.connect-links {
+    float: right;
+    vertical-align: middle;
+    height: 10vh;
+    margin-right: 15%;
+    line-height: 10vh;
+}
+a:hover {
+    fill: black;
+}
+a {
+    fill: white;
+    color: white;
+    font-style: inherit;
+    text-decoration: inherit;
+    transition: color 0.25s ease, fill 0.25s ease;
+}
+svg {
+    width: 1em;
+    height: 1em;
+    line-height: 10vh;
+    vertical-align: middle;
+    fill: inherit;
+}
+svg > path {
+    fill: inherit;
+}
+object.resume {
+    width=75%;
+    height: 85vh;
+}
